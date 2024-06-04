@@ -13,7 +13,7 @@ class CustomCard3 extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(15.0),
         child: Image.asset(
-          'assets/peli2.png', 
+          'assets/saw.jpg', 
           fit: BoxFit.cover,
         ),
       ),

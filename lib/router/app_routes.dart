@@ -10,7 +10,7 @@ class AppRoutes {
 
   static final menuOptions = <MenuOption>[
     MenuOption(route: 'home', icon: Icons.house_siding_sharp, name: 'HomeScreen', screen: const HomeScreen()),
-    MenuOption(route: 'card', icon: Icons.card_membership_rounded, name: 'CardScreen', screen: const CardScreen()),
+    MenuOption(route: 'card', icon: Icons.card_membership_rounded, name: 'Peliculas Insanas', screen: const CardScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

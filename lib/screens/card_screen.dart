@@ -19,7 +19,7 @@ class CardScreen extends StatelessWidget {
           },
           color: Colors.white,
         ),
-        title: const Text('Card Widget - Cruz Loje', style: TextStyle(color: Colors.white),),
+        title: const Text('Pelis Insanas - Paul Zelada', style: TextStyle(color: Colors.white),),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -36,6 +36,13 @@ class CardScreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+          child: const Icon(Icons.cloud_sync),
+          onPressed: () {
+            Navigator.pop(context);
+          }),
     );
+
+    
   }
 }

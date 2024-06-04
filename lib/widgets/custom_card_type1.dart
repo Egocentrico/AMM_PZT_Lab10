@@ -16,7 +16,7 @@ class CustomCard1 extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.ondemand_video_rounded , size: 50, color: AppTheme.primary),
             title: Text('Información de películas', style: TextStyle(fontWeight: FontWeight.bold)),
-            subtitle: Text('Esta es una descripción del título principal para mostrar'),
+            subtitle: Text('peliculas insanas del día'),
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.end,

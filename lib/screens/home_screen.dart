@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Laboratorio 10_Cruz',
+          'Laboratorio 10 - Paul Zelada',
           style: TextStyle(color: AppTheme.primary)
           ),
         elevation: 0,
